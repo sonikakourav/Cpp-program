@@ -7,10 +7,6 @@ struct Student{
 };
 int main(){
    Student s;
-   cout<<"Enter Student Name: ";
-   cin.getline(s.stuName, 30);
-   cout<<"ENter Student Roll No: ";
-   cin>>s.stuRollNo;
    cout<<"Enter Student Age: ";
    cin>>s.stuAge;
    cout<<"Student Record:"<<endl;
